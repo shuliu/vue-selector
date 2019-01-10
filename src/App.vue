@@ -5,8 +5,25 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <loading v-if="isLoading"></loading>
   </div>
 </template>
+
+<script>
+import Loading from '@/components/Utils/loading.vue';
+export default {
+  components: {
+    Loading,
+  },
+  computed: {
+    /** loading 開關 */
+    isLoading() {
+      return this.$store.getters['Loading/getLoadingStatus'];
+    },
+  },
+}
+</script>
+
 
 <style lang="scss">
 #app {

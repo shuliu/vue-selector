@@ -5222,6 +5222,11 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   dependencies:
     minimist "0.0.8"
 
+mobile-detect@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.3.tgz#e436a3839f5807dd4d3cd4e081f7d3a51ffda2dd"
+  integrity sha512-UaahPNLllQsstHOEHAmVnTHCMQrAS9eL5Qgdi50QrYz6UgGk+Xziz2udz2GN6NYcyODcPLnasC7a7s6R2DjiaQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6450,6 +6455,11 @@ querystringify@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.0.tgz#7ded8dfbf7879dcc60d0a644ac6754b283ad17ef"
   integrity sha512-sluvZZ1YiTLD5jsqZcDmFyV2EwToyXZBfpoVOmktMmW+VEnhgakFHnasVph65fOjGPTWN0Nw3+XQaSeMayr0kg==
+
+ramda@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
+  integrity sha512-hLWjpy7EnsDBb0p+Z3B7rPi3GDeRG5ZtiI33kJhTt+ORCd38AbAIjB/9zRIUoeTbE/AVX5ZkU7m6bznsvrf8eQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.0.6"
@@ -7981,6 +7991,11 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vee-validate@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-2.1.5.tgz#ced270f9c7f5eeac560b4d7ab63bda756b71761c"
+  integrity sha512-ygo3uQZrCZjFQcZ/AcFI5UZ3ouaNxtsrs+3o/u4yd3TeZveMwYBI3v6+uKbk2aHmNV6jXLl/aj5BTZTYaf73Lw==
 
 vendors@^1.0.0:
   version "1.0.2"
